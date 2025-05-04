@@ -1,0 +1,15 @@
+# 1. Install the venv module (if it's not already installed)
+sudo apt install python3-venv -y
+
+# 2. Create a virtual environment (in your home directory or project folder)
+python3 -m venv ~/scapy-env
+
+# 3. Activate the virtual environment
+source ~/scapy-env/bin/activate
+
+# 4. Install Scapy inside the virtual environment
+pip install scapy
+
+
+
+
